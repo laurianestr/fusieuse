@@ -3,7 +3,10 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  background-color: bisque;
+  font-family: "Creato Display", sans-serif;
+}
 a {
   color: inherit;
 }
@@ -11,8 +14,66 @@ a {
 img,
 video {
   display: block;
+  max-height: 100vh;
 }
 
-img {
-  width: 20%;
+header {
+  height: 100vh;
+  width: 100svw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+header .navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.scene {
+  position: relative;
+}
+
+.plan {
+  position: absolute;
+}
+
+.storytelling {
+  height: 100vh;
+  width: 100svw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.book-shop {
+  background-image: url(../img/shop-background.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100svw;
+  margin: 0;
+  padding: 0svb 0;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.book-shop p {
+  font-size: 18px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+footer img {
+  width: 50px;
 }
