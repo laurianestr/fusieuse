@@ -23,7 +23,6 @@ header {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: relative;
 }
 
 header .navigation {
@@ -50,16 +49,40 @@ header .navigation {
 }
 
 .book-shop {
-  background-image: url(../img/shop-background.jpg);
+  background-image: url(../img/shop-background-2.jpg);
   background-size: cover;
-  background-position-y: -90;
+  background-position: center;
   height: 100vh;
   width: 100svw;
   overflow: hidden;
   position: relative;
   display: flex;
+  align-items: center;
   flex-direction: row;
   color: white;
+}
+
+.book-shop .book {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 150px;
+}
+
+.book-info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 250px;
+  padding-right: 100px;
+}
+
+.book-shop .book img {
+  width: 110%;
 }
 
 footer {
@@ -78,7 +101,7 @@ footer .social-media img {
 
 footer img {
   width: 80%;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .contact {
@@ -95,7 +118,7 @@ footer .information {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 footer .credits {
@@ -109,6 +132,11 @@ footer .mentions-legales {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+footer .mentions-legales h5 {
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .small-button {
@@ -133,4 +161,83 @@ footer .mentions-legales {
   padding-bottom: 7px;
   font-size: 24px;
   text-decoration: none;
+}
+
+footer .send {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  border-radius: 20px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 60px;
+  margin-right: 8px;
+}
+
+.newsletter h4 {
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.submit-button {
+  border-radius: 20px;
+  border: solid 2px;
+  padding: 5px 24px;
+}
+
+.submit-button a {
+  text-decoration: none;
+}
+
+.credits h6 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.choice-button a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.choice-button {
+  margin-bottom: 12px;
+  margin-top: 70px;
+}
+
+.small-button a {
+  text-decoration: none;
+}
+
+.big-button a {
+  text-decoration: none;
+}
+
+.book-info img {
+  width: 50%;
+}
+
+.book-shop p {
+  margin-bottom: 70px;
+  line-height: 1.6;
+}
+
+.home-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.background-title {
+  height: 100vh;
+  width: 100svw;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.choice-button a #crea {
 }
