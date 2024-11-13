@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  background-color: bisque;
+  background-color: rgb(181, 181, 181);
   font-family: "Creato Display", sans-serif;
 }
 a {
@@ -29,6 +29,8 @@ header {
 header .navigation {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .scene {
@@ -50,30 +52,85 @@ header .navigation {
 .book-shop {
   background-image: url(../img/shop-background.jpg);
   background-size: cover;
-  display: flex;
-  flex-direction: row;
+  background-position-y: -90;
   height: 100vh;
   width: 100svw;
-  margin: 0;
-  padding: 0svb 0;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: row;
   color: white;
-  padding-right: 50px;
-  padding-left: 50px;
-}
-
-.book-shop p {
-  font-size: 18px;
 }
 
 footer {
   background-color: black;
   color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+footer .social-media img {
+  width: 7%;
+  margin-right: 10px;
+}
+
+footer img {
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .social-media {
   display: flex;
   flex-direction: row;
 }
 
-footer img {
-  width: 50px;
+footer .information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+footer .credits {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .mentions-legales {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.small-button {
+  border: solid 2px;
+  border-radius: 20px;
+  padding-right: 32px;
+  padding-top: 7px;
+  padding-left: 32px;
+  padding-bottom: 7px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.big-button {
+  color: #fde174;
+  border: solid 2px;
+  border-radius: 20px;
+  padding-right: 48px;
+  padding-top: 7px;
+  padding-left: 48px;
+  padding-bottom: 7px;
+  font-size: 24px;
+  text-decoration: none;
 }
