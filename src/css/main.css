@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: rgb(181, 181, 181);
   font-family: "Creato Display", sans-serif;
@@ -109,10 +110,15 @@ header .navigation {
   width: 50%;
 }
 
-.book-info .choice-button a {
+.book-info .choice-button .lien {
+  margin: 0;
   text-decoration: none;
   margin-right: 15px;
   color: white;
+}
+
+.lien-gros {
+  font-weight: 700;
 }
 
 .book-info .choice-button {
@@ -120,12 +126,8 @@ header .navigation {
   margin-top: 70px;
 }
 
-.book-info .choice-button .resume {
-  font-weight: 700;
-}
-
-.book-info .choice-button .crea {
-  font-weight: 300;
+.text-hide {
+  display: none;
 }
 
 /* footer */
@@ -283,6 +285,7 @@ footer .social-media img:hover {
   height: 100vh;
   width: 100%;
   position: absolute;
+  overflow: hidden;
 }
 
 .plan {
@@ -314,13 +317,4 @@ footer .social-media img:hover {
 .scene-7 img {
   height: 100vh;
   right: 0;
-}
-
-.scene-4,
-.scene-5,
-.scene-6,
-.scene-7,
-.scene-8,
-.scene-9 {
-  opacity: 0;
 }
