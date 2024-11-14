@@ -63,16 +63,6 @@ header .navigation {
   position: relative;
 }
 
-.scene {
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-}
-
-.plan {
-  position: absolute;
-}
-
 .book-shop {
   background-image: url(../img/shop-background-2.jpg);
   background-size: cover;
@@ -284,5 +274,53 @@ input {
 }
 
 footer .social-media img:hover {
-  transform: scale(1.1);
+  transform: scale(1.5);
+}
+
+/* ajustements */
+
+.scene {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.plan {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.scene img {
+  position: absolute;
+}
+
+.scene-2 img,
+.scene-4 img,
+.scene-5 img,
+.scene-8 img,
+.scene-9 img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.scene-1 img,
+.scene-3 img,
+.scene-6 img {
+  width: 100%;
+}
+
+.scene-7 img {
+  height: 100vh;
+  right: 0;
+}
+
+.scene-4,
+.scene-5,
+.scene-6,
+.scene-7,
+.scene-8,
+.scene-9 {
+  opacity: 0;
 }
