@@ -157,11 +157,6 @@ footer .contact {
   flex-direction: column;
 }
 
-footer .contact .social-media {
-  display: flex;
-  flex-direction: row;
-}
-
 footer .information {
   display: flex;
   flex-direction: row;
